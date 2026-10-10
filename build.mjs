@@ -15,6 +15,8 @@ const EFFECTIVE = new Date(Date.UTC(2026, 9, 10));
 /** The copyright holder, named in every language's footer. */
 const OWNER = 'Tintronix Lab';
 const CHECK_OWNER = true;
+/** Where support and privacy questions go; "{email}" in the text. */
+const SUPPORT_EMAIL = 'raztechsupport@icloud.com';
 
 /** Language tag, folder ('' is the root) and the language's own name. */
 const LANGUAGES = [
@@ -36,6 +38,7 @@ const LINKS = {
   support: () => 'support.html',
   privacy: () => 'privacy.html',
   english: (root) => `${root}privacy.html`,
+  email: () => `mailto:${SUPPORT_EMAIL}`,
   refund: () => 'https://reportaproblem.apple.com',
   'apple-privacy': () => 'https://www.apple.com/legal/privacy/',
   'github-privacy': () =>
@@ -96,7 +99,9 @@ function render([tag, folder], page) {
   /** Text with its <b> and named links turned into HTML. */
   const rich = (section, key, vars = {}) =>
     escape(text[section][key])
-      .replace(/\{(\w+)\}/g, (whole, name) => (name in vars ? escape(vars[name]) : whole))
+      .replace(/\{(\w+)\}/g, (whole, name) =>
+        name in vars ? escape(vars[name]) : name === 'email' ? SUPPORT_EMAIL : whole,
+      )
       .replace(/&lt;(\/?)b&gt;/g, '<$1strong>')
       .replace(/&lt;a:([a-z-]+)&gt;/g, (_, name) => `<a href="${LINKS[name](root)}">`)
       .replace(/&lt;\/a&gt;/g, '</a>');
@@ -176,7 +181,7 @@ ${[
 
         <h2>${t('contactTitle')}</h2>
         <p>${t('contact')}</p>
-        <p><a class="button" href="https://github.com/tintronix-lab/Pixelhome/issues">${t('contactButton')}</a></p>
+        <p><a class="button" href="mailto:${SUPPORT_EMAIL}">${t('contactButton')}</a></p>
         <p class="small">${t('contactNote')}</p>
 
         <h2>${t('livesTitle')}</h2>

@@ -46,8 +46,8 @@
     "lead": "Antwoorden op veelgestelde vragen, en hoe je ons bereikt.",
     "contactTitle": "Neem contact op",
     "contact": "Vertel ons wat er gebeurde, welk apparaat en welke iOS-versie je gebruikt, en welke versie onderaan in de Instellingen van het spel staat.",
-    "contactButton": "Vraag ondersteuning aan",
-    "contactNote": "Aanvragen zijn openbare GitHub-issues, dus zet er geen persoonlijke gegevens in, zoals het e-mailadres van je Apple Account.",
+    "contactButton": "Stuur ons een e-mail",
+    "contactNote": "Ons adres is <a:email>{email}</a>.",
     "livesTitle": "Hoe werken levens?",
     "lives": "Je hebt vijf levens, en elke 30 minuten komt er een terug. Je bent pas een leven kwijt als een poging in een level dat je nog niet hebt voltooid vastloopt en je daarna opnieuw begint of het level verlaat. Een zet terugnemen, hints, terugspoelen, voltooide levels opnieuw spelen, uitdagingen en de Dagflow kosten nooit een leven.",
     "stuckTitle": "Ik kom niet verder in een level",
@@ -90,6 +90,6 @@
     "languageTitle": "Vertalingen",
     "language": "Dit beleid wordt voor het gemak in meerdere talen gepubliceerd. Als de versies van elkaar verschillen, geldt de <a:english>Engelse versie</a>.",
     "contactTitle": "Contact",
-    "contact": "Vragen over dit beleid kun je sturen via de <a:support>ondersteuningspagina</a>."
+    "contact": "Vragen over dit beleid kun je sturen naar <a:email>{email}</a>."
   }
 }

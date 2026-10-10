@@ -46,8 +46,8 @@
     "lead": "Respuestas a las preguntas más habituales y cómo contactar con nosotros.",
     "contactTitle": "Ponte en contacto",
     "contact": "Cuéntanos qué ha pasado, qué dispositivo y qué versión de iOS usas, y la versión que aparece al final de los Ajustes del juego.",
-    "contactButton": "Abrir una solicitud de ayuda",
-    "contactNote": "Las solicitudes son incidencias públicas de GitHub, así que no incluyas datos personales, como el correo de tu cuenta de Apple.",
+    "contactButton": "Escríbenos por correo",
+    "contactNote": "Nuestra dirección es <a:email>{email}</a>.",
     "livesTitle": "¿Cómo funcionan las vidas?",
     "lives": "Tienes cinco vidas y recuperas una cada 30 minutos. Solo se gasta una vida cuando se atasca un intento en un nivel que aún no has completado y después lo reinicias o sales del nivel. Deshacer, las pistas, rebobinar, repetir niveles completados, los Retos y el Flujo diario nunca cuestan vidas.",
     "stuckTitle": "No consigo superar un nivel",
@@ -90,6 +90,6 @@
     "languageTitle": "Traducciones",
     "language": "Esta política se publica en varios idiomas por comodidad. Si las versiones difieren, se aplica la <a:english>versión en inglés</a>.",
     "contactTitle": "Contacto",
-    "contact": "Las preguntas sobre esta política pueden enviarse a través de la <a:support>página de ayuda</a>."
+    "contact": "Las preguntas sobre esta política pueden enviarse a <a:email>{email}</a>."
   }
 }

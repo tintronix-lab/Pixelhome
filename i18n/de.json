@@ -46,8 +46,8 @@
     "lead": "Antworten auf die häufigsten Fragen – und wie du uns erreichst.",
     "contactTitle": "Schreib uns",
     "contact": "Erzähl uns, was passiert ist, welches Gerät und welche iOS-Version du nutzt und welche Version ganz unten in den Optionen des Spiels steht.",
-    "contactButton": "Support-Anfrage erstellen",
-    "contactNote": "Anfragen sind öffentliche GitHub-Issues. Gib deshalb bitte keine persönlichen Daten an, etwa die E-Mail-Adresse deines Apple Accounts.",
+    "contactButton": "E-Mail an den Support",
+    "contactNote": "Unsere Adresse lautet <a:email>{email}</a>.",
     "livesTitle": "Wie funktionieren die Leben?",
     "lives": "Du hast fünf Leben, und alle 30 Minuten kommt eines zurück. Ein Leben kostet es nur, wenn sich ein Versuch in einem Level staut, das du noch nicht gemeistert hast, und du das Level dann neu startest oder verlässt. Rückgängig, Hinweise, Zurückspulen, Wiederholungen gemeisterter Level, Challenges und der Tages-Flow kosten nie ein Leben.",
     "stuckTitle": "Ich komme in einem Level nicht weiter",
@@ -90,6 +90,6 @@
     "languageTitle": "Übersetzungen",
     "language": "Diese Datenschutzerklärung wird zum leichteren Verständnis in mehreren Sprachen veröffentlicht. Weichen die Fassungen voneinander ab, gilt die <a:english>englische Fassung</a>.",
     "contactTitle": "Kontakt",
-    "contact": "Fragen zu dieser Datenschutzerklärung kannst du uns über die <a:support>Support-Seite</a> schicken."
+    "contact": "Fragen zu dieser Datenschutzerklärung kannst du an <a:email>{email}</a> schicken."
   }
 }

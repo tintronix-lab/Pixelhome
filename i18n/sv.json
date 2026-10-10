@@ -46,8 +46,8 @@
     "lead": "Svar på de vanligaste frågorna och hur du når oss.",
     "contactTitle": "Hör av dig",
     "contact": "Berätta vad som hände, vilken enhet och iOS-version du använder och vilken version som visas längst ner under Inställningar i spelet.",
-    "contactButton": "Skapa ett supportärende",
-    "contactNote": "Det du skickar in blir ett offentligt ärende på GitHub, så ta inte med personliga uppgifter som e-postadressen till ditt Apple-konto.",
+    "contactButton": "Mejla supporten",
+    "contactNote": "Vår adress är <a:email>{email}</a>.",
     "livesTitle": "Hur fungerar liven?",
     "lives": "Du har fem liv, och ett kommer tillbaka var 30:e minut. Ett liv går bara åt när det blir stopp i ett försök på en bana du inte har klarat och du sedan börjar om eller lämnar banan. Att ångra, få ledtrådar, backa, spela om avklarade banor, spela Utmaningar eller Dagens flyt kostar aldrig något liv.",
     "stuckTitle": "Jag har kört fast på en bana",
@@ -90,6 +90,6 @@
     "languageTitle": "Översättningar",
     "language": "Den här policyn publiceras på flera språk för att vara lättare att ta del av. Om versionerna skiljer sig åt gäller <a:english>den engelska versionen</a>.",
     "contactTitle": "Kontakt",
-    "contact": "Frågor om den här policyn kan skickas via <a:support>supportsidan</a>."
+    "contact": "Frågor om den här policyn kan skickas till <a:email>{email}</a>."
   }
 }
