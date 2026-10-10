@@ -14,7 +14,7 @@ const SITE = 'https://tintronix-lab.github.io/Pixelhome/';
 const EFFECTIVE = new Date(Date.UTC(2026, 9, 10));
 /** The copyright holder, named in every language's footer. */
 const OWNER = 'Tintronix Lab';
-const CHECK_OWNER = false;
+const CHECK_OWNER = true;
 
 /** Language tag, folder ('' is the root) and the language's own name. */
 const LANGUAGES = [

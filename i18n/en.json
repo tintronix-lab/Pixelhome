@@ -63,7 +63,7 @@
     "gameCenterTitle": "Game Center",
     "gameCenter": "Game Center is optional. Nothing happens until you tap <b>Sign in to Game Center</b> in your profile. If that says to sign in in the Settings app, open Settings, then Game Center, and sign in there first.",
     "deleteTitle": "Deleting your data",
-    "delete": "In your profile, <b>Delete account data</b> removes the cloud save linked to your Apple Account and signs you out. Deleting the app removes what is stored on the device. To stop using Sign in with Apple with Pixel Home, open Settings, tap your name, then Sign in with Apple."
+    "delete": "In your profile, <b>Delete account data</b> removes the cloud save linked to your Apple Account and signs you out. Deleting the app removes your progress and settings from the device. Your lives and what your purchases granted are kept in the iOS Keychain, so they are still there if you install the game again. To stop using Sign in with Apple with Pixel Home, open the Settings app, tap your name, then Sign in with Apple."
   },
   "privacy": {
     "title": "Pixel Home privacy policy",
@@ -72,7 +72,7 @@
     "effective": "Effective {date}",
     "summary": "Pixel Home does not collect any data about you. It has no analytics, no advertising, no tracking and no third-party software kits, and we run no servers for it.",
     "deviceTitle": "What stays on your device",
-    "device": "Your progress, settings, lives and the record of what your purchases granted are stored on your device, the latter in the iOS Keychain. They are not sent to us.",
+    "device": "Your progress and settings are stored on your device. Your lives, the record of what your purchases granted and your sign-in are kept in the iOS Keychain on your device, where they can remain after the game is deleted, so that they are still there if you install it again. None of this is sent to us.",
     "signInTitle": "Sign in with Apple (optional)",
     "signIn": "You can play as a guest. If you choose to sign in, the game asks Apple only for your name, never your email address. Apple gives the game an identifier for your account. It is kept on your device and used to label your save in your own iCloud storage. We have no server, so neither the identifier nor your name ever reaches us.",
     "icloudTitle": "iCloud saves",
