@@ -358,3 +358,24 @@ footer nav {
   display: flex;
   gap: 18px;
 }
+
+/* Language switcher ------------------------------------------------------------------ */
+
+.languages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px 16px;
+}
+
+.languages a[aria-current] {
+  font-weight: 900;
+  text-decoration: none;
+}
+
+footer .languages {
+  justify-content: flex-start;
+  margin-top: 18px;
+  padding-top: 16px;
+  border-top: 2px solid rgba(255, 248, 236, 0.25);
+}
