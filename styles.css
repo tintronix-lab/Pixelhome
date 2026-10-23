@@ -215,6 +215,12 @@ a:focus-visible,
   background: var(--gold);
   font-weight: 900;
   box-shadow: 0 4px 0 var(--ink);
+  text-decoration: none;
+}
+
+a.badge:active {
+  transform: translateY(4px);
+  box-shadow: none;
 }
 
 .small {

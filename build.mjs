@@ -15,6 +15,9 @@ const EFFECTIVE = new Date(Date.UTC(2026, 9, 11));
 /** The copyright holder, named in every language's footer. */
 const OWNER = 'Tintronix Lab';
 const CHECK_OWNER = true;
+/** Pixel Home on the App Store. */
+const APP_STORE_ID = '6821402076';
+const APP_STORE = `https://apps.apple.com/app/id${APP_STORE_ID}`;
 /** Where support and privacy questions go; "{email}" in the text. */
 const SUPPORT_EMAIL = 'raztechsupport@icloud.com';
 
@@ -128,7 +131,7 @@ function render([tag, folder], page) {
         <img class="icon" src="${root}assets/icon.png" alt="${plain('index', 'iconAlt')}" width="112" height="112" />
         <h1 class="wordmark" aria-label="Pixel Home"><span aria-hidden="true"><span class="c-r">P</span><span class="c-y">I</span><span class="c-g">X</span><span class="c-b">E</span><span class="c-p">L</span></span> <span aria-hidden="true"><span class="c-o">H</span><span class="c-r">O</span><span class="c-y">M</span><span class="c-g">E</span></span></h1>
         <p class="tagline">${t('tagline')}</p>
-        <span class="badge">${t('badge')}</span>${
+        <a class="badge" href="${APP_STORE}">${t('badge')}</a>${
           available.length > 1
             ? `
         <p class="small languages">
@@ -240,6 +243,7 @@ ${['device', 'signIn', 'icloud', 'gameCenter', 'purchases', 'ads', 'adsData', 'a
     <meta property="og:description" content="${description}" />
     <meta property="og:image" content="${SITE}assets/2-title.png" />
     <meta name="theme-color" content="#9fd283" />
+    <meta name="apple-itunes-app" content="app-id=${APP_STORE_ID}" />
     <link rel="canonical" href="${url(folder, page)}" />
 ${available.map(([other, f]) => `    <link rel="alternate" hreflang="${other}" href="${url(f, page)}" />`).join('\n')}
     <link rel="alternate" hreflang="x-default" href="${url('', page)}" />
