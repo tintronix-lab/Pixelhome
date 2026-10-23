@@ -92,7 +92,7 @@
     "childrenTitle": "Children",
     "children": "We collect no data from anyone, including children. Ads are never personalized and are limited to those Google rates as suitable for general audiences.",
     "siteTitle": "This website",
-    "site": "This site is hosted on GitHub Pages. It uses no cookies and no analytics of its own. GitHub may log technical information such as IP addresses to operate the service, as described in the <a:github-privacy>GitHub privacy statement</a>.",
+    "site": "This site is hosted on GitHub Pages. It uses no cookies and no analytics of its own. GitHub may log technical information such as IP addresses to operate the service, as described in the <a:github-privacy>GitHub privacy statement</a>. From version 1.1 the game also reads a small settings file from this site when it starts, so that it can show fewer ads or say that a new version is available. The request contains nothing about you, but as with any visit GitHub may log the IP address it comes from.",
     "changesTitle": "Changes",
     "changes": "If this policy changes, the new version will be published on this page with a new effective date.",
     "languageTitle": "Translations",
