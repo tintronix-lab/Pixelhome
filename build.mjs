@@ -36,6 +36,20 @@ const LANGUAGES = [
 
 const PAGES = { index: '', support: 'support.html', privacy: 'privacy.html' };
 
+/**
+ * The six pips, as in the game (src/core/colors.ts): text key, name and color.
+ * Names are the same in every language. Their pictures (assets/pip-*.png) are
+ * the game's own sprites, one image pixel per art pixel.
+ */
+const PIPS = [
+  ['posy', 'Posy', 'pink'],
+  ['dew', 'Dew', 'blue'],
+  ['sprig', 'Sprig', 'green'],
+  ['sunny', 'Sunny', 'yellow'],
+  ['luna', 'Luna', 'purple'],
+  ['cinder', 'Cinder', 'orange'],
+];
+
 /** Where named links go. `root` is the path from the page to the site root. */
 const LINKS = {
   support: () => 'support.html',
@@ -158,6 +172,26 @@ ${switcher('          ')}
         <p>${t('how1')}</p>
         <p>${t('how2')}</p>
       </section>
+
+      <section class="card">
+        <h2>${t('pipsTitle')}</h2>
+        <p>${t('pipsIntro')}</p>
+      </section>
+
+      <div class="grid pips">
+${PIPS.map(
+  ([key, name, color]) => `        <section class="card pip" style="--dot: var(--${color})">
+          <div class="pip-head">
+            <img src="${root}assets/pip-${key}.png" alt="" width="13" height="17" />
+            <div>
+              <h3>${name}</h3>
+              <p class="trait">${t(`${key}Trait`)}</p>
+            </div>
+          </div>
+          <p>${t(`${key}Story`)}</p>
+        </section>`,
+).join('\n')}
+      </div>
 
       <div class="grid">
 ${[
