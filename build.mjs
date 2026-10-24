@@ -13,7 +13,7 @@ import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 const SITE = 'https://tintronix-lab.github.io/Pixelhome/';
 const EFFECTIVE = new Date(Date.UTC(2026, 9, 11));
 /** The copyright holder, named in every language's footer. */
-const OWNER = 'Tintronix Lab';
+const OWNER = 'RazTech Innovations';
 const CHECK_OWNER = true;
 /** Pixel Home on the App Store. */
 const APP_STORE_ID = '6821402076';
