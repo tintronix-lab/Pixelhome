@@ -11,7 +11,7 @@
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 
 const SITE = 'https://tintronix-lab.github.io/Pixelhome/';
-const EFFECTIVE = new Date(Date.UTC(2026, 9, 11));
+const EFFECTIVE = new Date(Date.UTC(2026, 9, 24));
 /** The copyright holder, named in every language's footer. */
 const OWNER = 'RazTech Innovations';
 const CHECK_OWNER = true;
@@ -59,6 +59,7 @@ const LINKS = {
   refund: () => 'https://reportaproblem.apple.com',
   'apple-privacy': () => 'https://www.apple.com/legal/privacy/',
   'google-privacy': () => 'https://policies.google.com/technologies/partner-sites',
+  'posthog-privacy': () => 'https://posthog.com/privacy',
   'github-privacy': () =>
     'https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement',
 };
@@ -254,7 +255,7 @@ ${[
         <h1>${t('heading')}</h1>
         <p class="lead">${t('effective', { date })}</p>
         <p class="note">${t('summary')}</p>
-${['device', 'signIn', 'icloud', 'gameCenter', 'purchases', 'ads', 'adsData', 'adsChoice', 'children', 'site', 'changes', 'language', 'contact']
+${['device', 'signIn', 'icloud', 'gameCenter', 'purchases', 'ads', 'adsData', 'adsChoice', 'stats', 'children', 'site', 'changes', 'language', 'contact']
   .map(
     (key) => `
         <h2>${t(`${key}Title`)}</h2>
