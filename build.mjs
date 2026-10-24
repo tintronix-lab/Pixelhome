@@ -11,7 +11,7 @@
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 
 const SITE = 'https://tintronix-lab.github.io/Pixelhome/';
-const EFFECTIVE = new Date(Date.UTC(2026, 9, 11));
+const EFFECTIVE = new Date(Date.UTC(2026, 9, 24));
 /** The copyright holder, named in every language's footer. */
 const OWNER = 'RazTech Innovations';
 const CHECK_OWNER = true;
@@ -36,6 +36,20 @@ const LANGUAGES = [
 
 const PAGES = { index: '', support: 'support.html', privacy: 'privacy.html' };
 
+/**
+ * The six pips, as in the game (src/core/colors.ts): text key, name and color.
+ * Names are the same in every language. Their pictures (assets/pip-*.png) are
+ * the game's own sprites, one image pixel per art pixel.
+ */
+const PIPS = [
+  ['posy', 'Posy', 'pink'],
+  ['dew', 'Dew', 'blue'],
+  ['sprig', 'Sprig', 'green'],
+  ['sunny', 'Sunny', 'yellow'],
+  ['luna', 'Luna', 'purple'],
+  ['cinder', 'Cinder', 'orange'],
+];
+
 /** Where named links go. `root` is the path from the page to the site root. */
 const LINKS = {
   support: () => 'support.html',
@@ -45,6 +59,7 @@ const LINKS = {
   refund: () => 'https://reportaproblem.apple.com',
   'apple-privacy': () => 'https://www.apple.com/legal/privacy/',
   'google-privacy': () => 'https://policies.google.com/technologies/partner-sites',
+  'posthog-privacy': () => 'https://posthog.com/privacy',
   'github-privacy': () =>
     'https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement',
 };
@@ -155,6 +170,26 @@ ${switcher('          ')}
         <p>${t('how2')}</p>
       </section>
 
+      <section class="card">
+        <h2>${t('pipsTitle')}</h2>
+        <p>${t('pipsIntro')}</p>
+      </section>
+
+      <div class="grid pips">
+${PIPS.map(
+  ([key, name, color]) => `        <section class="card pip" style="--dot: var(--${color})">
+          <div class="pip-head">
+            <img src="${root}assets/pip-${key}.png" alt="" width="13" height="17" />
+            <div>
+              <h3>${name}</h3>
+              <p class="trait">${t(`${key}Trait`)}</p>
+            </div>
+          </div>
+          <p>${t(`${key}Story`)}</p>
+        </section>`,
+).join('\n')}
+      </div>
+
       <div class="grid">
 ${[
   ['worlds', 'green'],
@@ -220,7 +255,7 @@ ${[
         <h1>${t('heading')}</h1>
         <p class="lead">${t('effective', { date })}</p>
         <p class="note">${t('summary')}</p>
-${['device', 'signIn', 'icloud', 'gameCenter', 'purchases', 'ads', 'adsData', 'adsChoice', 'children', 'site', 'changes', 'language', 'contact']
+${['device', 'signIn', 'icloud', 'gameCenter', 'purchases', 'ads', 'adsData', 'adsChoice', 'stats', 'children', 'site', 'changes', 'language', 'contact']
   .map(
     (key) => `
         <h2>${t(`${key}Title`)}</h2>
