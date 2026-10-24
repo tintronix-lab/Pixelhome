@@ -141,6 +141,7 @@ a:focus-visible,
 .card + .card,
 .card + .grid,
 .grid + .card,
+.grid + .grid,
 .shots + .card,
 .card + .shots {
   margin-top: 28px;
@@ -221,6 +222,11 @@ a:focus-visible,
 a.badge:active {
   transform: translateY(4px);
   box-shadow: none;
+}
+
+.play {
+  margin-top: 16px;
+  font-weight: 700;
 }
 
 .small {
@@ -327,6 +333,50 @@ h3 {
   border-radius: 5px;
   background: var(--dot, var(--coral));
   vertical-align: -1px;
+}
+
+/* The pips: one card each, with the game's sprite at a whole-number scale. */
+
+.pip-head {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 12px;
+}
+
+.pip-head img {
+  flex: none;
+  width: 52px;
+  height: 68px;
+  padding: 10px 14px;
+  box-sizing: content-box;
+  border: 3px solid var(--ink);
+  border-radius: 18px;
+  background: color-mix(in srgb, var(--dot) 22%, var(--paper));
+  image-rendering: pixelated;
+}
+
+.pips h3::before {
+  content: none;
+}
+
+.trait {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 800;
+  color: var(--ink-soft);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .pip:hover .pip-head img {
+    animation: hop 0.45s steps(3, end);
+  }
+}
+
+@keyframes hop {
+  50% {
+    transform: translateY(-6px);
+  }
 }
 
 p {

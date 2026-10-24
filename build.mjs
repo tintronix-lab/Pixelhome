@@ -42,10 +42,26 @@ const LANGUAGES = [
 
 const PAGES = { index: '', support: 'support.html', privacy: 'privacy.html' };
 
+/**
+ * The six pips, as in the game (src/core/colors.ts): text key, name and color.
+ * Names are the same in every language. Their pictures (assets/pip-*.png) are
+ * the game's own sprites, one image pixel per art pixel.
+ */
+const PIPS = [
+  ['posy', 'Posy', 'pink'],
+  ['dew', 'Dew', 'blue'],
+  ['sprig', 'Sprig', 'green'],
+  ['sunny', 'Sunny', 'yellow'],
+  ['luna', 'Luna', 'purple'],
+  ['cinder', 'Cinder', 'orange'],
+];
+
 /** Where named links go. `root` is the path from the page to the site root. */
 const LINKS = {
   support: () => 'support.html',
   privacy: () => 'privacy.html',
+  // The game's web edition, built from the PixelFlow repository (npm run web:site).
+  play: (root) => `${root}play/`,
   english: (root) => `${root}privacy.html`,
   email: () => `mailto:${SUPPORT_EMAIL}`,
   refund: () => 'https://reportaproblem.apple.com',
@@ -138,7 +154,8 @@ function render([tag, folder], page) {
         <img class="icon" src="${root}assets/icon.png" alt="${plain('index', 'iconAlt')}" width="112" height="112" />
         <h1 class="wordmark" aria-label="Pixel Home"><span aria-hidden="true"><span class="c-r">P</span><span class="c-y">I</span><span class="c-g">X</span><span class="c-b">E</span><span class="c-p">L</span></span> <span aria-hidden="true"><span class="c-o">H</span><span class="c-r">O</span><span class="c-y">M</span><span class="c-g">E</span></span></h1>
         <p class="tagline">${t('tagline')}</p>
-        <a class="badge" href="${APP_STORE}">${t('badge')}</a>${
+        <a class="badge" href="${APP_STORE}">${t('badge')}</a>
+        <p class="play">${t('play')}</p>${
           available.length > 1
             ? `
         <p class="small languages">
@@ -170,6 +187,26 @@ ${switcher('          ')}
         <p>${t('how1')}</p>
         <p>${t('how2')}</p>
       </section>
+
+      <section class="card">
+        <h2>${t('pipsTitle')}</h2>
+        <p>${t('pipsIntro')}</p>
+      </section>
+
+      <div class="grid pips">
+${PIPS.map(
+  ([key, name, color]) => `        <section class="card pip" style="--dot: var(--${color})">
+          <div class="pip-head">
+            <img src="${root}assets/pip-${key}.png" alt="" width="13" height="17" />
+            <div>
+              <h3>${name}</h3>
+              <p class="trait">${t(`${key}Trait`)}</p>
+            </div>
+          </div>
+          <p>${t(`${key}Story`)}</p>
+        </section>`,
+).join('\n')}
+      </div>
 
       <div class="grid">
 ${[
