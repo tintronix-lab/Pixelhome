@@ -18,6 +18,12 @@ const CHECK_OWNER = true;
 /** Pixel Home on the App Store. */
 const APP_STORE_ID = '6821402076';
 const APP_STORE = `https://apps.apple.com/app/id${APP_STORE_ID}`;
+/**
+ * The App Clip's default link, which assets/app-clip-qr.svg encodes: today's
+ * Daily Flow without installing. If it changes, remake the code with
+ * tools/app-clip-qr.swift.
+ */
+const APP_CLIP = 'https://appclip.apple.com/id?p=com.tintronix.pixelflow.Clip';
 /** Where support and privacy questions go; "{email}" in the text. */
 const SUPPORT_EMAIL = 'raztechsupport@icloud.com';
 
@@ -166,6 +172,15 @@ ${switcher('          ')}
         <img src="${root}assets/4-postcards.png" alt="${plain('index', 'shotPostcards')}" width="603" height="1311" loading="lazy" />
         <img src="${root}assets/5-gifts.png" alt="${plain('index', 'shotGifts')}" width="603" height="1311" loading="lazy" />
       </div>
+
+      <section class="card clip">
+        <img class="qr" src="${root}assets/app-clip-qr.svg" alt="${plain('index', 'clipQrAlt')}" width="180" height="180" />
+        <div>
+          <h2>${t('clipTitle')}</h2>
+          <p>${t('clip')}</p>
+          <p><a class="button" href="${APP_CLIP}">${t('clipButton')}</a></p>
+        </div>
+      </section>
 
       <section class="card">
         <h2>${t('howTitle')}</h2>

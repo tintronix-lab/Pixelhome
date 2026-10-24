@@ -267,6 +267,35 @@ a.badge:active {
   }
 }
 
+/* App Clip ------------------------------------------------------------------ */
+
+.clip {
+  display: flex;
+  align-items: center;
+  gap: clamp(20px, 4vw, 36px);
+}
+
+/* 45 modules at 4px each, so every module is a whole number of pixels. */
+.clip .qr {
+  flex: none;
+  width: 180px;
+  height: 180px;
+  border: 3px solid var(--ink);
+  border-radius: 12px;
+  image-rendering: pixelated;
+}
+
+.clip p:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 600px) {
+  .clip {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
 /* Feature grid ---------------------------------------------------------------- */
 
 .grid {
