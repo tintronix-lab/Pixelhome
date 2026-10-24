@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "rewardedAds": true,
+  "adLivesPerDay": 3,
+  "levelsPerAd": 5,
+  "minVersion": null,
+  "notice": null
+}
