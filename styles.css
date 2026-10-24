@@ -223,6 +223,11 @@ a.badge:active {
   box-shadow: none;
 }
 
+.play {
+  margin-top: 16px;
+  font-weight: 700;
+}
+
 .small {
   margin-top: 14px;
   font-size: 15px;

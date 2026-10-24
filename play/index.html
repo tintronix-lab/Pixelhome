@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover, user-scalable=no"
+    />
+    <meta name="theme-color" content="#1f2433" />
+    <meta name="color-scheme" content="light dark" />
+    <meta
+      name="description"
+      content="Sort colors, manage your queue, and solve relaxing pixel-art puzzles. Keep the flow going!"
+    />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Pixel Home" />
+    <meta name="format-detection" content="telephone=no" />
+    <!--
+      Safari's Smart App Banner on the site (the iOS app's web view ignores it).
+      Its Open hands the app this link, which opens today's Daily Flow there.
+    -->
+    <meta
+      name="apple-itunes-app"
+      content="app-id=6821402076, app-argument=https://tintronix-lab.github.io/Pixelhome/play/?daily"
+    />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="icon" type="image/png" sizes="192x192" href="./icons/icon-192.png" />
+    <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png" />
+    <title>Pixel Home</title>
+    <!--
+      The studio card: the same picture as the iOS launch image (npm run icons),
+      at the same size and place, so the hand-over from launch is seamless. It
+      is plain markup and inline style so it is on screen before any script or
+      stylesheet arrives; src/ui/studio.ts takes it away once the game is ready.
+    -->
+    <style>#studio{z-index:1000;--side:max(100vw, 100vh);background-color:#a3d886;background-image:conic-gradient(#aadc8a 25%, #a3d886 0 50%, #aadc8a 0 75%, #a3d886 0);background-size:calc(var(--side) * .112738) calc(var(--side) * .112738);background-position:50%;place-items:center;transition:opacity .32s;display:grid;position:fixed;inset:0}#studio img{width:calc(max(100vw,100vh)/2.73202);height:auto}#studio.leaving{opacity:0;pointer-events:none}@media (prefers-reduced-motion:reduce){#studio{transition:none}}</style>
+    <script type="module" crossorigin src="./assets/index-Be1FLWV0.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/preload-helper-CRzLMJPS.js">
+    <link rel="modulepreload" crossorigin href="./assets/dist-CMedSjkm.js">
+    <link rel="modulepreload" crossorigin href="./assets/definitions-BdWVgBTV.js">
+    <link rel="stylesheet" crossorigin href="./assets/index-vrP7YxDi.css">
+  </head>
+  <body>
+    <div id="studio" role="img" aria-label="Raztech Innovations">
+      <img src="./studio.png" alt="" width="1134" height="235" />
+    </div>
+    <canvas id="board" aria-hidden="true"></canvas>
+    <div id="ui"></div>
+    <div id="announcer" class="sr-only" aria-live="polite"></div>
+    <div id="safe-area-probe" aria-hidden="true"></div>
+    <noscript>Pixel Home needs JavaScript to run.</noscript>
+  </body>
+</html>
