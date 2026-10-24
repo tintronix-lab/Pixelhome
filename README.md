@@ -17,5 +17,6 @@ The HTML files are generated: do not edit them by hand.
 - Layout lives in the templates in `build.mjs`; styles in `styles.css`.
 - `node build.mjs --check` verifies every translation against the English (same keys, same links and placeholders).
 - `node build.mjs` writes all pages. Commit the result: GitHub Pages serves the `main` branch as it is.
+- `assets/app-clip-qr.svg` is the QR code on the product page, which opens the App Clip on today's Daily Flow. `swift tools/app-clip-qr.swift > assets/app-clip-qr.svg` remakes it from the link in the script (the same as `APP_CLIP` in `build.mjs`).
 
 The words used for things in the game (buttons, worlds, items) follow the game's own translations, so the site and the game read the same.
