@@ -37,7 +37,7 @@
     "devices": "‘Log in met Apple’ is optioneel en bewaart je tuin in je eigen iCloud. Game Center is er voor wie dat wil. Als gast speel je gewoon het hele spel.",
     "freeTitle": "Gratis spelen",
     "free1": "Pixel Home is gratis te spelen. Met optionele in-app-aankopen krijg je extra levens, 24 uur onbeperkt levens en Stretch-boosters; het dagelijkse cadeau, de missies en de trofeeën leveren hetzelfde gratis op. Vanaf versie 1.1 wordt het spel betaald met reclame die nooit een level onderbreekt: een korte advertentie na elke vijfde voltooide tuin, en een filmpje dat je kunt bekijken voor een extra leven.",
-    "free2": "We verzamelen geen gegevens, en de reclame is nooit gepersonaliseerd. Lees het <a:privacy>privacybeleid</a>, of kijk bij <a:support>Ondersteuning</a> als je hulp kunt gebruiken."
+    "free2": "We verzamelen geen gegevens die jou identificeren, en de reclame is nooit gepersonaliseerd. Lees het <a:privacy>privacybeleid</a>, of kijk bij <a:support>Ondersteuning</a> als je hulp kunt gebruiken."
   },
   "support": {
     "title": "Ondersteuning voor Pixel Home",
@@ -69,10 +69,10 @@
   },
   "privacy": {
     "title": "Privacybeleid van Pixel Home",
-    "description": "Wat Pixel Home met gegevens doet: wij verzamelen er geen. Vanaf versie 1.1 toont het spel reclame die door Google wordt geleverd en nooit gepersonaliseerd is.",
+    "description": "Wat Pixel Home met gegevens doet. Vanaf versie 1.1 toont het spel reclame die door Google wordt geleverd en nooit gepersonaliseerd is. Vanaf versie 1.2 stuurt het anonieme spelstatistieken die je kunt uitzetten.",
     "heading": "Privacybeleid",
     "effective": "Geldig vanaf {date}",
-    "summary": "We verzamelen geen gegevens over jou. Pixel Home heeft geen accounts bij ons, geen analytics en geen tracking, en we draaien er geen servers voor. Vanaf versie 1.1 toont het spel reclame. Die wordt geleverd door Google, dat daarvoor wat informatie van je apparaat ontvangt; in de onderdelen over reclame hieronder lees je welke, wanneer en wat je kunt kiezen.",
+    "summary": "We verzamelen geen gegevens die jou identificeren. Pixel Home heeft geen accounts bij ons en geen tracking, en we draaien er geen servers voor. Vanaf versie 1.1 toont het spel reclame. Die wordt geleverd door Google, dat daarvoor wat informatie van je apparaat ontvangt; in de onderdelen over reclame hieronder lees je welke, wanneer en wat je kunt kiezen. Vanaf versie 1.2 stuurt het spel ook anonieme spelstatistieken, die je kunt uitzetten; in het onderdeel daarover lees je wat erin staat.",
     "deviceTitle": "Wat op je apparaat blijft",
     "device": "Je voortgang en instellingen worden op je apparaat opgeslagen. Je levens, het overzicht van wat je aankopen hebben opgeleverd en je inlog worden bewaard in de iOS-sleutelhanger op je apparaat, waar ze kunnen blijven staan nadat het spel is verwijderd, zodat ze er nog zijn als je het opnieuw installeert. Niets hiervan wordt naar ons verstuurd.",
     "signInTitle": "Log in met Apple (optioneel)",
@@ -89,8 +89,10 @@
     "adsData": "Om advertenties te leveren, te beperken hoe vaak ze verschijnen en ze te meten, stuurt de advertentiesoftware van Google in het spel informatie naar Google, zoals je IP-adres (waaruit ongeveer blijkt waar je bent), gegevens over je apparaat en de app (model, systeemversie, taal, appversie), kenmerken die voor de app op je apparaat worden bewaard, en of een advertentie is getoond of aangetikt. Deze informatie gaat naar Google en zijn advertentiepartners, niet naar ons. <a:google-privacy>Hoe Google informatie gebruikt van apps die zijn services gebruiken</a> legt uit wat Google ermee doet en hoe je dat kunt beheren.",
     "adsChoiceTitle": "Geen gepersonaliseerde reclame, en jouw keuzes",
     "adsChoice": "Het spel vraagt altijd om niet-gepersonaliseerde advertenties. Het vraagt nooit toestemming om je te volgen in apps en op websites van andere bedrijven, dus je advertentie-ID wordt niet gebruikt. Advertenties kunnen nog wel worden gekozen op basis van algemene context, zoals ongeveer waar je bent, je taal en de app die je gebruikt. Als je in de Europese Economische Ruimte, het Verenigd Koninkrijk of Zwitserland bent, vraagt het toestemmingsformulier van Google vóór de eerste advertentie om je keuze en noemt het de betrokken advertentiepartners. Je kunt weigeren, en je kunt je antwoord op elk moment wijzigen in het spel onder <b>Instellingen</b> en dan <b>Reclamevoorkeuren</b>.",
+    "statsTitle": "Anonieme spelstatistieken",
+    "stats": "Vanaf versie 1.2 stuurt Pixel Home anonieme spelstatistieken naar PostHog, een analysedienst: welke levels worden begonnen, voltooid of opgegeven, wanneer de levens op zijn, wanneer de winkel wordt geopend en hoe aankopen aflopen, samen met de versie van de app en de taal van het spel. Ze bevatten geen naam, geen account, geen advertentie- of apparaat-ID en niets wat jou identificeert: een willekeurige waarde die elke dag verandert, laat ons spelers per dag tellen zonder iemand van de ene dag op de andere te herkennen. Ze worden bewaard in de Europese Unie, zonder IP-adressen en zonder locatie. Je kunt ze in het spel uitzetten onder <b>Instellingen</b> en dan <b>Deel anonieme spelstatistieken</b>. Hoe PostHog ermee omgaat, staat in het <a:posthog-privacy>privacybeleid van PostHog</a>.",
     "childrenTitle": "Kinderen",
-    "children": "We verzamelen van niemand gegevens, ook niet van kinderen. De reclame is nooit gepersonaliseerd en beperkt tot advertenties die Google geschikt acht voor alle leeftijden.",
+    "children": "We verzamelen van niemand gegevens die iemand identificeren, ook niet van kinderen: de spelstatistieken zijn anoniem. De reclame is nooit gepersonaliseerd en beperkt tot advertenties die Google geschikt acht voor alle leeftijden.",
     "siteTitle": "Deze website",
     "site": "Deze site wordt gehost op GitHub Pages. De site gebruikt geen cookies en geen eigen analytics. GitHub kan technische gegevens zoals IP-adressen vastleggen om de dienst te laten werken, zoals beschreven in de <a:github-privacy>privacyverklaring van GitHub</a>. Vanaf versie 1.1 leest de game bij het starten ook een klein instellingenbestand van deze site, zodat hij minder advertenties kan tonen of kan melden dat er een nieuwe versie is. Het verzoek bevat niets over jou, maar zoals bij elk bezoek kan GitHub het IP-adres vastleggen waar het vandaan komt.",
     "changesTitle": "Wijzigingen",

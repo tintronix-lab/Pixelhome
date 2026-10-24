@@ -37,7 +37,7 @@
     "devices": "Logga in med Apple är valfritt och sparar din trädgård i din egen iCloud. Game Center finns där om du vill ha det. Du får hela spelet även som gäst.",
     "freeTitle": "Gratis att spela",
     "free1": "Pixel Home är gratis att spela. Valfria köp i appen ger extraliv, 24 timmar med obegränsade liv och Tänj-boostar – dagens gåva, uppdrag och troféer ger samma saker gratis. Från version 1.1 finansieras spelet med reklam som aldrig avbryter en bana: en kort annons efter var femte avklarad trädgård, och en video som du kan välja att se för ett extraliv.",
-    "free2": "Vi samlar inte in några data, och reklamen är aldrig personanpassad. Läs <a:privacy>integritetspolicyn</a>, eller titta in på <a:support>supportsidan</a> om du behöver hjälp."
+    "free2": "Vi samlar inte in några data som identifierar dig, och reklamen är aldrig personanpassad. Läs <a:privacy>integritetspolicyn</a>, eller titta in på <a:support>supportsidan</a> om du behöver hjälp."
   },
   "support": {
     "title": "Support för Pixel Home",
@@ -69,10 +69,10 @@
   },
   "privacy": {
     "title": "Integritetspolicy för Pixel Home",
-    "description": "Vad Pixel Home gör med data: vi samlar inte in några. Från version 1.1 visar spelet reklam som levereras av Google och aldrig är personanpassad.",
+    "description": "Vad Pixel Home gör med data. Från version 1.1 visar spelet reklam som levereras av Google och aldrig är personanpassad. Från version 1.2 skickar det anonym spelstatistik som du kan stänga av.",
     "heading": "Integritetspolicy",
     "effective": "Gäller från den {date}",
-    "summary": "Vi samlar inte in några data om dig. Pixel Home har inga konton hos oss, inga analysverktyg och ingen spårning, och vi driver inga servrar för det. Från version 1.1 visar spelet reklam. Den levereras av Google, som då får viss information från din enhet; avsnitten om reklam nedan förklarar vilken, när och vad du kan välja.",
+    "summary": "Vi samlar inte in några data som identifierar dig. Pixel Home har inga konton hos oss och ingen spårning, och vi driver inga servrar för det. Från version 1.1 visar spelet reklam. Den levereras av Google, som då får viss information från din enhet; avsnitten om reklam nedan förklarar vilken, när och vad du kan välja. Från version 1.2 skickar spelet också anonym spelstatistik, som du kan stänga av; avsnittet om den förklarar vad den innehåller.",
     "deviceTitle": "Det som stannar på din enhet",
     "device": "Dina framsteg och inställningar lagras på din enhet. Dina liv, förteckningen över vad dina köp har gett dig och din inloggning sparas i nyckelringen i iOS på din enhet, där de kan finnas kvar efter att spelet har raderats, så att de fortfarande finns där om du installerar det igen. Inget av detta skickas till oss.",
     "signInTitle": "Logga in med Apple (valfritt)",
@@ -89,8 +89,10 @@
     "adsData": "För att leverera annonser, begränsa hur ofta de visas och mäta dem skickar Googles reklamprogramvara i spelet information till Google, till exempel din IP-adress (som visar ungefär var du befinner dig), uppgifter om din enhet och appen (modell, systemversion, språk, appversion), identifierare som sparas för appen på din enhet och om en annons har visats eller tryckts på. Informationen går till Google och dess annonspartner, inte till oss. <a:google-privacy>Så använder Google information från appar som använder dess tjänster</a> förklarar vad Google gör med den och hur du kan styra det.",
     "adsChoiceTitle": "Ingen personanpassad reklam, och dina val",
     "adsChoice": "Spelet begär alltid icke-personanpassade annonser. Det ber aldrig om tillåtelse att spåra dig i andra företags appar och på deras webbplatser, så din annonsidentifierare används inte. Annonser kan ändå väljas utifrån allmänt sammanhang, till exempel ungefär var du befinner dig, ditt språk och appen du använder. Om du befinner dig i Europeiska ekonomiska samarbetsområdet, Storbritannien eller Schweiz frågar Googles samtyckesformulär efter ditt val före den första annonsen och anger vilka annonspartner som är inblandade. Du kan säga nej, och du kan när som helst ändra ditt svar i spelet under <b>Inställningar</b> och sedan <b>Reklamval</b>.",
+    "statsTitle": "Anonym spelstatistik",
+    "stats": "Från version 1.2 skickar Pixel Home anonym spelstatistik till PostHog, en analystjänst: vilka banor som påbörjas, klaras eller ges upp, när liven tar slut, när butiken öppnas och hur köp slutar, tillsammans med appens version och spelets språk. Den innehåller inget namn, inget konto, ingen annons- eller enhetsidentifierare och inget som identifierar dig: ett slumpvärde som byts varje dag låter oss räkna spelare per dag utan att känna igen någon från en dag till nästa. Den lagras i Europeiska unionen, utan IP-adresser och utan plats. Du kan stänga av den i spelet under <b>Inställningar</b> och sedan <b>Dela anonym spelstatistik</b>. Hur PostHog hanterar den beskrivs i <a:posthog-privacy>PostHogs integritetspolicy</a>.",
     "childrenTitle": "Barn",
-    "children": "Vi samlar inte in data från någon, inte heller från barn. Reklamen är aldrig personanpassad och begränsad till annonser som Google bedömer som lämpliga för alla åldrar.",
+    "children": "Vi samlar inte in data som identifierar någon, inte heller barn: spelstatistiken är anonym. Reklamen är aldrig personanpassad och begränsad till annonser som Google bedömer som lämpliga för alla åldrar.",
     "siteTitle": "Den här webbplatsen",
     "site": "Den här webbplatsen ligger på GitHub Pages. Den använder inga kakor och inga egna analysverktyg. GitHub kan logga teknisk information, till exempel IP-adresser, för att driva tjänsten, så som beskrivs i <a:github-privacy>GitHubs integritetspolicy</a>. Från version 1.1 läser spelet också en liten inställningsfil från den här webbplatsen när det startar, så att det kan visa färre annonser eller tala om att en ny version finns. Förfrågan innehåller inget om dig, men som vid alla besök kan GitHub logga IP-adressen den kommer från.",
     "changesTitle": "Ändringar",

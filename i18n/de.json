@@ -37,7 +37,7 @@
     "devices": "Wenn du magst, sichert „Mit Apple anmelden“ deinen Garten in deiner eigenen iCloud. Game Center gibt es dazu, wenn du möchtest. Auch als Gast spielst du das komplette Spiel.",
     "freeTitle": "Kostenlos spielen",
     "free1": "Pixel Home ist kostenlos spielbar. Optionale In-App-Käufe bieten Extraleben, 24 Stunden unbegrenzte Leben und Stretch-Booster; dasselbe bekommst du über das Tagesgeschenk, Missionen und Trophäen auch kostenlos. Ab Version 1.1 finanziert sich das Spiel über Werbung, die nie ein Level unterbricht: eine kurze Anzeige nach jedem fünften geschafften Garten und ein Video, das du dir für ein Extraleben ansehen kannst.",
-    "free2": "Wir sammeln keine Daten, und die Werbung ist nie personalisiert. Lies die <a:privacy>Datenschutzerklärung</a> oder schau beim <a:support>Support</a> vorbei, wenn du Hilfe brauchst."
+    "free2": "Wir sammeln keine Daten, die dich identifizieren, und die Werbung ist nie personalisiert. Lies die <a:privacy>Datenschutzerklärung</a> oder schau beim <a:support>Support</a> vorbei, wenn du Hilfe brauchst."
   },
   "support": {
     "title": "Support für Pixel Home",
@@ -69,10 +69,10 @@
   },
   "privacy": {
     "title": "Datenschutzerklärung von Pixel Home",
-    "description": "Was Pixel Home mit Daten macht: Wir sammeln keine. Ab Version 1.1 zeigt das Spiel Werbung, die von Google ausgeliefert wird und nie personalisiert ist.",
+    "description": "Was Pixel Home mit Daten macht. Ab Version 1.1 zeigt das Spiel Werbung, die von Google ausgeliefert wird und nie personalisiert ist. Ab Version 1.2 sendet es anonyme Spielstatistiken, die du ausschalten kannst.",
     "heading": "Datenschutzerklärung",
     "effective": "Gültig ab dem {date}",
-    "summary": "Wir sammeln keine Daten über dich. Pixel Home hat keine Accounts bei uns, keine Nutzungsanalyse und kein Tracking, und wir betreiben dafür keine Server. Ab Version 1.1 zeigt das Spiel Werbung. Sie wird von Google ausgeliefert, und Google erhält dafür einige Informationen von deinem Gerät; die Abschnitte zur Werbung weiter unten erklären, welche, wann und was du entscheiden kannst.",
+    "summary": "Wir sammeln keine Daten, die dich identifizieren. Pixel Home hat keine Accounts bei uns und kein Tracking, und wir betreiben dafür keine Server. Ab Version 1.1 zeigt das Spiel Werbung. Sie wird von Google ausgeliefert, und Google erhält dafür einige Informationen von deinem Gerät; die Abschnitte zur Werbung weiter unten erklären, welche, wann und was du entscheiden kannst. Ab Version 1.2 sendet das Spiel außerdem anonyme Spielstatistiken, die du ausschalten kannst; der Abschnitt dazu erklärt, was sie enthalten.",
     "deviceTitle": "Was auf deinem Gerät bleibt",
     "device": "Dein Fortschritt und deine Einstellungen werden auf deinem Gerät gespeichert. Deine Leben, die Aufzeichnung darüber, was du durch deine Käufe erhalten hast, und deine Anmeldung werden im iOS-Schlüsselbund auf deinem Gerät aufbewahrt, wo sie nach dem Löschen des Spiels erhalten bleiben können, damit sie noch da sind, wenn du es wieder installierst. Nichts davon wird an uns gesendet.",
     "signInTitle": "Mit Apple anmelden (optional)",
@@ -89,8 +89,10 @@
     "adsData": "Um Werbung auszuliefern, ihre Häufigkeit zu begrenzen und sie zu messen, sendet die Werbesoftware von Google im Spiel Informationen an Google, etwa deine IP-Adresse (aus der sich dein ungefährer Standort ergibt), Angaben zu deinem Gerät und zur App (Modell, Systemversion, Sprache, App-Version), Kennungen, die für die App auf deinem Gerät gespeichert sind, und ob eine Anzeige gezeigt oder angetippt wurde. Diese Informationen gehen an Google und seine Werbepartner, nicht an uns. <a:google-privacy>Wie Google Informationen aus Apps verwendet, die seine Dienste nutzen</a>, erklärt, was Google damit macht und wie du das steuern kannst.",
     "adsChoiceTitle": "Keine personalisierte Werbung und deine Wahl",
     "adsChoice": "Das Spiel fordert immer nicht personalisierte Werbung an. Es bittet nie um die Erlaubnis, dich über Apps und Websites anderer Unternehmen hinweg zu verfolgen; deine Werbe-ID wird also nicht verwendet. Anzeigen können trotzdem nach allgemeinem Kontext ausgewählt werden, etwa nach deinem ungefähren Standort, deiner Sprache und der App, die du gerade nutzt. Wenn du dich im Europäischen Wirtschaftsraum, im Vereinigten Königreich oder in der Schweiz befindest, fragt das Einwilligungsformular von Google vor der ersten Anzeige nach deiner Entscheidung und nennt die beteiligten Werbepartner. Du kannst ablehnen, und du kannst deine Antwort jederzeit im Spiel unter <b>Optionen</b> und dann <b>Werbeeinstellungen</b> ändern.",
+    "statsTitle": "Anonyme Spielstatistiken",
+    "stats": "Ab Version 1.2 sendet Pixel Home anonyme Spielstatistiken an PostHog, einen Analysedienst: welche Level begonnen, geschafft oder aufgegeben werden, wann die Leben ausgehen, wann der Shop geöffnet wird und wie Käufe ausgehen, dazu die App-Version und die Sprache des Spiels. Sie enthalten keinen Namen, keinen Account, keine Werbe- oder Geräte-ID und nichts, was dich identifiziert: Ein Zufallswert, der sich jeden Tag ändert, lässt uns die Spieler pro Tag zählen, ohne jemanden von einem Tag zum nächsten wiederzuerkennen. Sie werden in der Europäischen Union gespeichert, ohne IP-Adressen und ohne Standort. Du kannst sie im Spiel unter <b>Optionen</b> und dann <b>Anonyme Spielstatistiken teilen</b> ausschalten. Wie PostHog mit ihnen umgeht, beschreibt die <a:posthog-privacy>Datenschutzerklärung von PostHog</a>.",
     "childrenTitle": "Kinder",
-    "children": "Wir sammeln von niemandem Daten, auch nicht von Kindern. Die Werbung ist nie personalisiert und auf Anzeigen beschränkt, die Google als für alle Altersgruppen geeignet einstuft.",
+    "children": "Wir sammeln von niemandem Daten, die ihn identifizieren, auch nicht von Kindern: Die Spielstatistiken sind anonym. Die Werbung ist nie personalisiert und auf Anzeigen beschränkt, die Google als für alle Altersgruppen geeignet einstuft.",
     "siteTitle": "Diese Website",
     "site": "Diese Website wird auf GitHub Pages gehostet. Sie verwendet keine Cookies und keine eigene Nutzungsanalyse. GitHub kann technische Informationen wie IP-Adressen protokollieren, um den Dienst zu betreiben, wie in der <a:github-privacy>Datenschutzerklärung von GitHub</a> beschrieben. Ab Version 1.1 liest das Spiel beim Start außerdem eine kleine Einstellungsdatei von dieser Website, damit es weniger Werbung zeigen oder auf eine neue Version hinweisen kann. Die Anfrage enthält nichts über dich, aber wie bei jedem Besuch kann GitHub die IP-Adresse protokollieren, von der sie kommt.",
     "changesTitle": "Änderungen",
