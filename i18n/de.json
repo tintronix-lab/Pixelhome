@@ -92,7 +92,7 @@
     "childrenTitle": "Kinder",
     "children": "Wir sammeln von niemandem Daten, auch nicht von Kindern. Die Werbung ist nie personalisiert und auf Anzeigen beschränkt, die Google als für alle Altersgruppen geeignet einstuft.",
     "siteTitle": "Diese Website",
-    "site": "Diese Website wird auf GitHub Pages gehostet. Sie verwendet keine Cookies und keine eigene Nutzungsanalyse. GitHub kann technische Informationen wie IP-Adressen protokollieren, um den Dienst zu betreiben, wie in der <a:github-privacy>Datenschutzerklärung von GitHub</a> beschrieben.",
+    "site": "Diese Website wird auf GitHub Pages gehostet. Sie verwendet keine Cookies und keine eigene Nutzungsanalyse. GitHub kann technische Informationen wie IP-Adressen protokollieren, um den Dienst zu betreiben, wie in der <a:github-privacy>Datenschutzerklärung von GitHub</a> beschrieben. Ab Version 1.1 liest das Spiel beim Start außerdem eine kleine Einstellungsdatei von dieser Website, damit es weniger Werbung zeigen oder auf eine neue Version hinweisen kann. Die Anfrage enthält nichts über dich, aber wie bei jedem Besuch kann GitHub die IP-Adresse protokollieren, von der sie kommt.",
     "changesTitle": "Änderungen",
     "changes": "Wenn sich diese Datenschutzerklärung ändert, wird die neue Fassung auf dieser Seite mit einem neuen Gültigkeitsdatum veröffentlicht.",
     "languageTitle": "Übersetzungen",

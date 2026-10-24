@@ -92,7 +92,7 @@
     "childrenTitle": "Enfants",
     "children": "Nous ne collectons aucune donnée auprès de qui que ce soit, y compris des enfants. La publicité n’est jamais personnalisée et se limite aux annonces que Google juge adaptées à tous les publics.",
     "siteTitle": "Ce site web",
-    "site": "Ce site est hébergé sur GitHub Pages. Il n’utilise lui-même ni cookies ni mesure d’audience. GitHub peut enregistrer des informations techniques, telles que les adresses IP, pour faire fonctionner le service, comme le décrit la <a:github-privacy>déclaration de confidentialité de GitHub</a>.",
+    "site": "Ce site est hébergé sur GitHub Pages. Il n’utilise lui-même ni cookies ni mesure d’audience. GitHub peut enregistrer des informations techniques, telles que les adresses IP, pour faire fonctionner le service, comme le décrit la <a:github-privacy>déclaration de confidentialité de GitHub</a>. À partir de la version 1.1, le jeu lit aussi au démarrage un petit fichier de réglages sur ce site, pour pouvoir afficher moins de publicités ou signaler qu’une nouvelle version est disponible. La requête ne contient rien sur toi, mais comme pour toute visite, GitHub peut enregistrer l’adresse IP d’où elle vient.",
     "changesTitle": "Modifications",
     "changes": "Si cette politique change, la nouvelle version sera publiée sur cette page avec une nouvelle date d’entrée en vigueur.",
     "languageTitle": "Traductions",

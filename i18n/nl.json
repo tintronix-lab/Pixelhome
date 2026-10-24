@@ -92,7 +92,7 @@
     "childrenTitle": "Kinderen",
     "children": "We verzamelen van niemand gegevens, ook niet van kinderen. De reclame is nooit gepersonaliseerd en beperkt tot advertenties die Google geschikt acht voor alle leeftijden.",
     "siteTitle": "Deze website",
-    "site": "Deze site wordt gehost op GitHub Pages. De site gebruikt geen cookies en geen eigen analytics. GitHub kan technische gegevens zoals IP-adressen vastleggen om de dienst te laten werken, zoals beschreven in de <a:github-privacy>privacyverklaring van GitHub</a>.",
+    "site": "Deze site wordt gehost op GitHub Pages. De site gebruikt geen cookies en geen eigen analytics. GitHub kan technische gegevens zoals IP-adressen vastleggen om de dienst te laten werken, zoals beschreven in de <a:github-privacy>privacyverklaring van GitHub</a>. Vanaf versie 1.1 leest de game bij het starten ook een klein instellingenbestand van deze site, zodat hij minder advertenties kan tonen of kan melden dat er een nieuwe versie is. Het verzoek bevat niets over jou, maar zoals bij elk bezoek kan GitHub het IP-adres vastleggen waar het vandaan komt.",
     "changesTitle": "Wijzigingen",
     "changes": "Als dit beleid verandert, wordt de nieuwe versie op deze pagina gepubliceerd met een nieuwe ingangsdatum.",
     "languageTitle": "Vertalingen",
