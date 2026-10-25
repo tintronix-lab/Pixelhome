@@ -27,7 +27,10 @@ const APP_CLIP = 'https://appclip.apple.com/id?p=com.tintronix.pixelflow.Clip';
 /** Where support and privacy questions go; "{email}" in the text. */
 const SUPPORT_EMAIL = 'raztechsupport@icloud.com';
 
-/** Language tag, folder ('' is the root) and the language's own name. */
+/**
+ * Language tag, folder ('' is the root) and the language's own name. The folder
+ * is the tag in lower case (pt-BR in pt-br/, zh-Hant in zh-hant/).
+ */
 const LANGUAGES = [
   ['en', '', 'English'],
   ['de', 'de/', 'Deutsch'],
@@ -35,9 +38,11 @@ const LANGUAGES = [
   ['fr', 'fr/', 'Français'],
   ['it', 'it/', 'Italiano'],
   ['ja', 'ja/', '日本語'],
+  ['ko', 'ko/', '한국어'],
   ['nl', 'nl/', 'Nederlands'],
   ['pt-BR', 'pt-br/', 'Português (Brasil)'],
   ['sv', 'sv/', 'Svenska'],
+  ['zh-Hant', 'zh-hant/', '繁體中文'],
 ];
 
 const PAGES = { index: '', support: 'support.html', privacy: 'privacy.html' };
