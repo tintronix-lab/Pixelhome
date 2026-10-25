@@ -56,9 +56,16 @@ h3 {
   text-wrap: balance;
 }
 
-/* Japanese: never start a line with a long-vowel mark or small kana. */
-:lang(ja) {
+/* Japanese: never start a line with a long-vowel mark or small kana. Chinese
+   follows the same strict rules for punctuation at the start of a line. */
+:lang(ja),
+:lang(zh-Hant) {
   line-break: strict;
+}
+
+/* Korean breaks lines between words, at spaces, as the game does. */
+:lang(ko) {
+  word-break: keep-all;
 }
 
 a {
