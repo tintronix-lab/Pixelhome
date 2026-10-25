@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "packs": [
+    {
+      "id": "petal-parade",
+      "rev": 1,
+      "from": "2026-10-25"
+    }
+  ]
+}

@@ -7,6 +7,7 @@ The product, support and privacy pages for **Pixel Home**, a cozy queue-sorting 
 - `privacy.html`: privacy policy
 - `play/`: the game's web edition, the Meadow and the Daily Flow in the browser, linked from the product page. A shared Daily Flow result leads here (`play/?daily=2026-10-24`).
 - `settings/v1.json`: settings the game reads at launch (from version 1.1) to show fewer ads or ask older versions to update. Every field and its limits are described in `docs/ADS.md` in the PixelFlow repository. It can only make ads rarer.
+- `packs/v1/`: garden packs, new levels the game (from version 1.3) downloads, proves on the device and offers without an update: `index.json` lists them and each pack is a file beside it. They are made and checked in the PixelFlow repository (`docs/PACKS.md`) and written here by `npm run packs:site` there; don't edit them by hand.
 
 English is at the root; German, Spanish, French, Italian, Japanese, Korean, Dutch, Brazilian Portuguese, Swedish, Thai and Traditional Chinese each have a folder named after the language tag in lower case (`de/`, `es/`, `fr/`, `it/`, `ja/`, `ko/`, `nl/`, `pt-br/`, `sv/`, `th/`, `zh-hant/`).
 
