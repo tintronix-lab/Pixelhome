@@ -42,6 +42,7 @@ const LANGUAGES = [
   ['nl', 'nl/', 'Nederlands'],
   ['pt-BR', 'pt-br/', 'Português (Brasil)'],
   ['sv', 'sv/', 'Svenska'],
+  ['th', 'th/', 'ไทย'],
   ['zh-Hant', 'zh-hant/', '繁體中文'],
 ];
 

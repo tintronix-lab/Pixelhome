@@ -68,6 +68,13 @@ h3 {
   word-break: keep-all;
 }
 
+/* Thai has no spaces between words (the browser breaks lines by dictionary) and
+   stacks vowel and tone marks above and below a letter, so its headings need
+   more room between lines. */
+:lang(th) :is(h1, h2, h3) {
+  line-height: 1.35;
+}
+
 a {
   color: inherit;
   text-decoration-thickness: 2px;
