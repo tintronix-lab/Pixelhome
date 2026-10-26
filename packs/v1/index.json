@@ -2,6 +2,26 @@
   "version": 1,
   "packs": [
     {
+      "id": "frosty-haze",
+      "rev": 1,
+      "from": "2026-12-19"
+    },
+    {
+      "id": "closing-time",
+      "rev": 1,
+      "from": "2026-12-12"
+    },
+    {
+      "id": "front-of-the-line",
+      "rev": 1,
+      "from": "2026-12-05"
+    },
+    {
+      "id": "foggy-hollow",
+      "rev": 1,
+      "from": "2026-11-28"
+    },
+    {
       "id": "petal-parade",
       "rev": 1,
       "from": "2026-10-25"
