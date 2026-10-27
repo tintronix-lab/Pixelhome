@@ -172,11 +172,11 @@ ${switcher('          ')}
       </section>
 
       <div class="shots" aria-label="${plain('index', 'shots')}">
-        <img src="${root}assets/2-title.png" alt="${plain('index', 'shotTitle')}" width="603" height="1311" />
-        <img src="${root}assets/1-brookside.png" alt="${plain('index', 'shotBrookside')}" width="603" height="1311" loading="lazy" />
-        <img src="${root}assets/3-glowcave.png" alt="${plain('index', 'shotGlowcave')}" width="603" height="1311" loading="lazy" />
-        <img src="${root}assets/4-postcards.png" alt="${plain('index', 'shotPostcards')}" width="603" height="1311" loading="lazy" />
-        <img src="${root}assets/5-gifts.png" alt="${plain('index', 'shotGifts')}" width="603" height="1311" loading="lazy" />
+        <img src="${root}assets/title.png" alt="${plain('index', 'shotTitle')}" width="603" height="1311" />
+        <img src="${root}assets/adventure.png" alt="${plain('index', 'shotAdventure')}" width="603" height="1311" loading="lazy" />
+        <img src="${root}assets/my-garden.png" alt="${plain('index', 'shotGarden')}" width="603" height="1311" loading="lazy" />
+        <img src="${root}assets/cloud-gardens.png" alt="${plain('index', 'shotLevel')}" width="603" height="1311" loading="lazy" />
+        <img src="${root}assets/postcards.png" alt="${plain('index', 'shotPostcards')}" width="603" height="1311" loading="lazy" />
       </div>
 
       <section class="card clip">
@@ -216,8 +216,11 @@ ${PIPS.map(
 
       <div class="grid">
 ${[
-  ['worlds', 'green'],
+  ['adventures', 'pink'],
+  ['garden', 'green'],
+  ['worlds', 'blue'],
   ['daily', 'gold'],
+  ['wander', 'purple'],
   ['pace', 'blue'],
   ['lives', 'pink'],
   ['collect', 'purple'],
