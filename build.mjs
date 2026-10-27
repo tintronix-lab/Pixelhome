@@ -11,7 +11,7 @@
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 
 const SITE = 'https://tintronix-lab.github.io/Pixelhome/';
-const EFFECTIVE = new Date(Date.UTC(2026, 9, 26));
+const EFFECTIVE = new Date(Date.UTC(2026, 9, 27));
 /** The copyright holder, named in every language's footer. */
 const OWNER = 'RazTech Innovations';
 const CHECK_OWNER = true;
