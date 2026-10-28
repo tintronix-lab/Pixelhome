@@ -4,5 +4,147 @@
   "adLivesPerDay": 3,
   "levelsPerAd": 5,
   "minVersion": null,
-  "notice": null
+  "notice": null,
+  "events": [
+    {
+      "id": "lantern-week-2026-11",
+      "kind": "decoration",
+      "item": "gift.paperLantern",
+      "goal": 5,
+      "from": "2026-11-06",
+      "to": "2026-11-12",
+      "title": {
+        "en": "Lantern week",
+        "de": "Laternenwoche",
+        "es": "Semana de farolillos",
+        "fr": "Semaine des lanternes",
+        "it": "Settimana delle lanterne",
+        "ja": "ちょうちんウィーク",
+        "ko": "등불 주간",
+        "nl": "Lampionnenweek",
+        "pt-BR": "Semana das Lanternas",
+        "sv": "Lyktveckan",
+        "th": "สัปดาห์โคมกระดาษ",
+        "zh-Hant": "燈籠週"
+      },
+      "text": {
+        "en": "Autumn Garden Festival: clear 5 gardens this week for a Paper Lantern in My Garden.",
+        "de": "Herbstliches Gartenfest: Meistere diese Woche 5 Gärten für eine Papierlaterne in Mein Garten.",
+        "es": "Fiesta otoñal del jardín: supera 5 jardines esta semana y gana un farolillo de papel para Mi jardín.",
+        "fr": "Fête des jardins d’automne : réussis 5 jardins cette semaine pour une lanterne en papier dans Mon jardin.",
+        "it": "Festa d’autunno in giardino: completa 5 giardini questa settimana per una lanterna di carta nel tuo giardino.",
+        "ja": "秋の庭まつり：今週、庭を5つクリアすると、わたしの庭にちょうちんが届きます。",
+        "ko": "가을 정원 축제: 이번 주에 정원 5개를 클리어하면 나의 뜰에 종이 등불이 생겨요.",
+        "nl": "Herfsttuinfeest: voltooi deze week 5 tuinen voor een papieren lampion in Mijn tuin.",
+        "pt-BR": "Festival de Outono do Jardim: conclua 5 jardins nesta semana e ganhe uma Lanterna de Papel no Meu jardim.",
+        "sv": "Höstens trädgårdsfest: klara 5 trädgårdar den här veckan för en papperslykta i Min trädgård.",
+        "th": "เทศกาลสวนฤดูใบไม้ร่วง: ผ่านสวน 5 แห่งในสัปดาห์นี้เพื่อรับโคมกระดาษในสวนของฉัน",
+        "zh-Hant": "秋日庭院祭：本週完成 5 座庭院，就能在我的庭院獲得紙燈籠。"
+      }
+    },
+    {
+      "id": "star-weekend-2026-11-13",
+      "kind": "doubleStars",
+      "from": "2026-11-13",
+      "to": "2026-11-15",
+      "title": {
+        "en": "Star weekend",
+        "de": "Sternenwochenende",
+        "es": "Fin de semana de estrellas",
+        "fr": "Week-end des étoiles",
+        "it": "Weekend delle stelle",
+        "ja": "星の週末",
+        "ko": "별 주말",
+        "nl": "Sterrenweekend",
+        "pt-BR": "Fim de semana das estrelas",
+        "sv": "Stjärnhelg",
+        "th": "สุดสัปดาห์ดาว",
+        "zh-Hant": "星星週末"
+      },
+      "text": {
+        "en": "Autumn Garden Festival: every star you earn this weekend counts twice for your gardener level.",
+        "de": "Herbstliches Gartenfest: Jeder Stern, den du an diesem Wochenende verdienst, zählt doppelt für deine Gärtnerstufe.",
+        "es": "Fiesta otoñal del jardín: cada estrella que ganes este fin de semana cuenta el doble para tu nivel de jardinería.",
+        "fr": "Fête des jardins d’automne : chaque étoile gagnée ce week-end compte double pour ton niveau de jardinage.",
+        "it": "Festa d’autunno in giardino: ogni stella che guadagni questo weekend vale doppio per il tuo livello giardiniere.",
+        "ja": "秋の庭まつり：この週末に集めた星は、ガーデナーレベルに2倍でカウントされます。",
+        "ko": "가을 정원 축제: 이번 주말에 얻은 별은 정원사 레벨에 두 배로 집계돼요.",
+        "nl": "Herfsttuinfeest: elke ster die je dit weekend verdient, telt dubbel voor je tuinierslevel.",
+        "pt-BR": "Festival de Outono do Jardim: cada estrela que você ganhar neste fim de semana conta em dobro para seu nível de jardineiro.",
+        "sv": "Höstens trädgårdsfest: varje stjärna du får i helgen räknas dubbelt för din trädgårdsnivå.",
+        "th": "เทศกาลสวนฤดูใบไม้ร่วง: ดาวทุกดวงที่ได้ในสุดสัปดาห์นี้นับเป็นสองเท่าสำหรับเลเวลคนสวน",
+        "zh-Hant": "秋日庭院祭：本週末獲得的每顆星星，都會以兩倍計入你的園丁等級。"
+      }
+    },
+    {
+      "id": "kite-week-2026-11",
+      "kind": "decoration",
+      "item": "gift.starKite",
+      "goal": 5,
+      "from": "2026-11-20",
+      "to": "2026-11-26",
+      "title": {
+        "en": "Kite week",
+        "de": "Drachenwoche",
+        "es": "Semana de cometas",
+        "fr": "Semaine des cerfs-volants",
+        "it": "Settimana degli aquiloni",
+        "ja": "たこウィーク",
+        "ko": "연 주간",
+        "nl": "Vliegerweek",
+        "pt-BR": "Semana das Pipas",
+        "sv": "Drakveckan",
+        "th": "สัปดาห์ว่าว",
+        "zh-Hant": "風箏週"
+      },
+      "text": {
+        "en": "Autumn Garden Festival: clear 5 gardens this week for a Star Kite in My Garden.",
+        "de": "Herbstliches Gartenfest: Meistere diese Woche 5 Gärten für einen Sternendrachen in Mein Garten.",
+        "es": "Fiesta otoñal del jardín: supera 5 jardines esta semana y gana una cometa estrella para Mi jardín.",
+        "fr": "Fête des jardins d’automne : réussis 5 jardins cette semaine pour un cerf-volant étoile dans Mon jardin.",
+        "it": "Festa d’autunno in giardino: completa 5 giardini questa settimana per un aquilone stella nel tuo giardino.",
+        "ja": "秋の庭まつり：今週、庭を5つクリアすると、わたしの庭に星のたこが届きます。",
+        "ko": "가을 정원 축제: 이번 주에 정원 5개를 클리어하면 나의 뜰에 별 연이 생겨요.",
+        "nl": "Herfsttuinfeest: voltooi deze week 5 tuinen voor een stervlieger in Mijn tuin.",
+        "pt-BR": "Festival de Outono do Jardim: conclua 5 jardins nesta semana e ganhe uma Pipa Estrela no Meu jardim.",
+        "sv": "Höstens trädgårdsfest: klara 5 trädgårdar den här veckan för en stjärndrake i Min trädgård.",
+        "th": "เทศกาลสวนฤดูใบไม้ร่วง: ผ่านสวน 5 แห่งในสัปดาห์นี้เพื่อรับว่าวดาวในสวนของฉัน",
+        "zh-Hant": "秋日庭院祭：本週完成 5 座庭院，就能在我的庭院獲得星星風箏。"
+      }
+    },
+    {
+      "id": "star-weekend-2026-12-04",
+      "kind": "doubleStars",
+      "from": "2026-12-04",
+      "to": "2026-12-06",
+      "title": {
+        "en": "Star weekend",
+        "de": "Sternenwochenende",
+        "es": "Fin de semana de estrellas",
+        "fr": "Week-end des étoiles",
+        "it": "Weekend delle stelle",
+        "ja": "星の週末",
+        "ko": "별 주말",
+        "nl": "Sterrenweekend",
+        "pt-BR": "Fim de semana das estrelas",
+        "sv": "Stjärnhelg",
+        "th": "สุดสัปดาห์ดาว",
+        "zh-Hant": "星星週末"
+      },
+      "text": {
+        "en": "Autumn Garden Festival: every star you earn this weekend counts twice for your gardener level.",
+        "de": "Herbstliches Gartenfest: Jeder Stern, den du an diesem Wochenende verdienst, zählt doppelt für deine Gärtnerstufe.",
+        "es": "Fiesta otoñal del jardín: cada estrella que ganes este fin de semana cuenta el doble para tu nivel de jardinería.",
+        "fr": "Fête des jardins d’automne : chaque étoile gagnée ce week-end compte double pour ton niveau de jardinage.",
+        "it": "Festa d’autunno in giardino: ogni stella che guadagni questo weekend vale doppio per il tuo livello giardiniere.",
+        "ja": "秋の庭まつり：この週末に集めた星は、ガーデナーレベルに2倍でカウントされます。",
+        "ko": "가을 정원 축제: 이번 주말에 얻은 별은 정원사 레벨에 두 배로 집계돼요.",
+        "nl": "Herfsttuinfeest: elke ster die je dit weekend verdient, telt dubbel voor je tuinierslevel.",
+        "pt-BR": "Festival de Outono do Jardim: cada estrela que você ganhar neste fim de semana conta em dobro para seu nível de jardineiro.",
+        "sv": "Höstens trädgårdsfest: varje stjärna du får i helgen räknas dubbelt för din trädgårdsnivå.",
+        "th": "เทศกาลสวนฤดูใบไม้ร่วง: ดาวทุกดวงที่ได้ในสุดสัปดาห์นี้นับเป็นสองเท่าสำหรับเลเวลคนสวน",
+        "zh-Hant": "秋日庭院祭：本週末獲得的每顆星星，都會以兩倍計入你的園丁等級。"
+      }
+    }
+  ]
 }
