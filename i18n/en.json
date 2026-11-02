@@ -105,7 +105,7 @@
     "icloudTitle": "iCloud saves",
     "icloud": "When you are signed in, your progress is saved to your own iCloud key-value storage so it can follow you to your other devices. That storage belongs to your Apple Account. We cannot read it. Apple's handling of it is covered by <a:apple-privacy>Apple's privacy policy</a>.",
     "gameCenterTitle": "Game Center (optional)",
-    "gameCenter": "If you choose to sign in to Game Center, your scores and achievements are sent to Apple's Game Center under your Game Center profile. The game does not start Game Center until you ask for it.",
+    "gameCenter": "If you choose to sign in to Game Center, your scores and achievements are sent to Apple's Game Center under your Game Center profile. The game does not start Game Center until you ask for it. From version 1.5, if you allow it, the game can show your Game Center friends' names and scores after a Daily Flow. They come from Apple's Game Center, are only shown on your screen, and the game keeps nothing about them.",
     "purchasesTitle": "Purchases",
     "purchases": "In-app purchases are processed by Apple. We never see your payment details.",
     "adsTitle": "Advertising",

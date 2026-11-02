@@ -105,7 +105,7 @@
     "icloudTitle": "Spielstände in iCloud",
     "icloud": "Wenn du angemeldet bist, wird dein Fortschritt in deinem eigenen iCloud-Schlüssel-Wert-Speicher gesichert, damit er dich auf deine anderen Geräte begleiten kann. Dieser Speicher gehört zu deinem Apple Account. Wir können ihn nicht lesen. Für den Umgang von Apple damit gilt die <a:apple-privacy>Datenschutzrichtlinie von Apple</a>.",
     "gameCenterTitle": "Game Center (optional)",
-    "gameCenter": "Wenn du dich für die Anmeldung bei Game Center entscheidest, werden deine Punktzahlen und Erfolge unter deinem Game Center-Profil an das Game Center von Apple gesendet. Das Spiel startet Game Center erst auf deinen Wunsch hin.",
+    "gameCenter": "Wenn du dich für die Anmeldung bei Game Center entscheidest, werden deine Punktzahlen und Erfolge unter deinem Game Center-Profil an das Game Center von Apple gesendet. Das Spiel startet Game Center erst auf deinen Wunsch hin. Ab Version 1.5 kann das Spiel nach einem Tages-Flow die Namen und Punkte deiner Game-Center-Freunde zeigen, wenn du es erlaubst. Sie kommen von Apples Game Center, erscheinen nur auf deinem Bildschirm, und das Spiel speichert nichts davon.",
     "purchasesTitle": "Käufe",
     "purchases": "In-App-Käufe werden von Apple abgewickelt. Deine Zahlungsdaten sehen wir nie.",
     "adsTitle": "Werbung",

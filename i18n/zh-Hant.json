@@ -105,7 +105,7 @@
     "icloudTitle": "iCloud 存檔",
     "icloud": "登入後，你的進度會儲存到你自己的 iCloud 鍵值儲存空間，以便跟著你到其他裝置上。該儲存空間屬於你的 Apple 帳號，我們無法讀取。Apple 對它的處理方式受 <a:apple-privacy>Apple 隱私權政策</a>規範。",
     "gameCenterTitle": "Game Center（可選）",
-    "gameCenter": "如果你選擇登入 Game Center，你的分數和成就會以你的 Game Center 個人檔案傳送到 Apple 的 Game Center。在你要求之前，遊戲不會啟動 Game Center。",
+    "gameCenter": "如果你選擇登入 Game Center，你的分數和成就會以你的 Game Center 個人檔案傳送到 Apple 的 Game Center。在你要求之前，遊戲不會啟動 Game Center。 從 1.5 版起，如果你允許，遊戲可在每日順流後顯示你的 Game Center 好友的名稱和分數。這些資料來自 Apple 的 Game Center，只會顯示在你的螢幕上，遊戲不會保存任何相關資料。",
     "purchasesTitle": "購買項目",
     "purchases": "App 內購買由 Apple 處理。我們絕不會看到你的付款資料。",
     "adsTitle": "廣告",

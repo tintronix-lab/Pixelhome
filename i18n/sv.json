@@ -105,7 +105,7 @@
     "icloudTitle": "Sparningar i iCloud",
     "icloud": "När du är inloggad sparas dina framsteg i din egen nyckel-värdelagring i iCloud så att de kan följa med dig till dina andra enheter. Den lagringen tillhör ditt Apple-konto. Vi kan inte läsa den. Apples hantering av den omfattas av <a:apple-privacy>Apples integritetspolicy</a>.",
     "gameCenterTitle": "Game Center (valfritt)",
-    "gameCenter": "Om du väljer att logga in på Game Center skickas dina poäng och prestationer till Apples Game Center under din Game Center-profil. Spelet startar inte Game Center förrän du ber om det.",
+    "gameCenter": "Om du väljer att logga in på Game Center skickas dina poäng och prestationer till Apples Game Center under din Game Center-profil. Spelet startar inte Game Center förrän du ber om det. Från version 1.5 kan spelet, om du tillåter det, visa dina Game Center-vänners namn och poäng efter Dagens flyt. De kommer från Apples Game Center, visas bara på din skärm, och spelet sparar inget om dem.",
     "purchasesTitle": "Köp",
     "purchases": "Köp i appen hanteras av Apple. Vi ser aldrig dina betalningsuppgifter.",
     "adsTitle": "Reklam",

@@ -105,7 +105,7 @@
     "icloudTitle": "iCloud 저장 데이터",
     "icloud": "로그인한 상태에서는 진행 상황이 다른 기기로 이어질 수 있도록 사용자 본인의 iCloud 키-값 저장소에 저장됩니다. 이 저장소는 사용자의 Apple 계정에 속하며, 저희는 이를 읽을 수 없습니다. Apple의 처리 방식에는 <a:apple-privacy>Apple 개인정보 처리방침</a>이 적용됩니다.",
     "gameCenterTitle": "Game Center(선택 사항)",
-    "gameCenter": "Game Center에 로그인하기로 선택하면 점수와 성취가 사용자의 Game Center 프로필로 Apple의 Game Center에 전송됩니다. 사용자가 요청하기 전에는 게임이 Game Center를 시작하지 않습니다.",
+    "gameCenter": "Game Center에 로그인하기로 선택하면 점수와 성취가 사용자의 Game Center 프로필로 Apple의 Game Center에 전송됩니다. 사용자가 요청하기 전에는 게임이 Game Center를 시작하지 않습니다. 버전 1.5부터는 허용하면 데일리 플로 후에 Game Center 친구의 이름과 점수를 보여 줄 수 있어요. 이 정보는 Apple의 Game Center에서 오고, 내 화면에만 표시되며, 게임은 아무것도 저장하지 않아요.",
     "purchasesTitle": "구입",
     "purchases": "앱 내 구입은 Apple이 처리합니다. 저희는 사용자의 결제 정보를 볼 수 없습니다.",
     "adsTitle": "광고",

@@ -105,7 +105,7 @@
     "icloudTitle": "Salvataggi su iCloud",
     "icloud": "Quando hai effettuato l’accesso, i tuoi progressi vengono salvati nel tuo spazio di archiviazione chiave-valore di iCloud, così possono seguirti sugli altri tuoi dispositivi. Quello spazio di archiviazione appartiene al tuo Apple Account. Noi non possiamo leggerlo. Il modo in cui Apple lo gestisce è descritto nell’<a:apple-privacy>informativa sulla privacy di Apple</a>.",
     "gameCenterTitle": "Game Center (facoltativo)",
-    "gameCenter": "Se scegli di accedere a Game Center, i tuoi punteggi e i tuoi obiettivi vengono inviati al Game Center di Apple con il tuo profilo Game Center. Il gioco non avvia Game Center finché non sei tu a chiederlo.",
+    "gameCenter": "Se scegli di accedere a Game Center, i tuoi punteggi e i tuoi obiettivi vengono inviati al Game Center di Apple con il tuo profilo Game Center. Il gioco non avvia Game Center finché non sei tu a chiederlo. Dalla versione 1.5, se lo consenti, il gioco può mostrare i nomi e i punteggi dei tuoi amici di Game Center dopo un Flow del giorno. Arrivano da Game Center di Apple, appaiono solo sul tuo schermo e il gioco non conserva nulla su di loro.",
     "purchasesTitle": "Acquisti",
     "purchases": "Gli acquisti in-app sono elaborati da Apple. Noi non vediamo mai i tuoi dati di pagamento.",
     "adsTitle": "Pubblicità",

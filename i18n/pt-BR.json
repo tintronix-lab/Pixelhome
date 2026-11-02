@@ -105,7 +105,7 @@
     "icloudTitle": "Progresso salvo no iCloud",
     "icloud": "Quando você está com a sessão iniciada, seu progresso é salvo no seu próprio armazenamento de chave-valor do iCloud, para poder acompanhar você nos seus outros dispositivos. Esse armazenamento pertence à sua Conta Apple. Nós não temos como lê-lo. A forma como a Apple trata esse armazenamento é coberta pela <a:apple-privacy>política de privacidade da Apple</a>.",
     "gameCenterTitle": "Game Center (opcional)",
-    "gameCenter": "Se você optar por iniciar sessão no Game Center, suas pontuações e conquistas são enviadas ao Game Center da Apple, sob o seu perfil do Game Center. O jogo não inicia o Game Center até você pedir.",
+    "gameCenter": "Se você optar por iniciar sessão no Game Center, suas pontuações e conquistas são enviadas ao Game Center da Apple, sob o seu perfil do Game Center. O jogo não inicia o Game Center até você pedir. A partir da versão 1.5, se você permitir, o jogo pode mostrar os nomes e as pontuações dos seus amigos do Game Center depois de um Fluxo Diário. Eles vêm do Game Center da Apple, aparecem só na sua tela, e o jogo não guarda nada sobre eles.",
     "purchasesTitle": "Compras",
     "purchases": "As compras dentro do app são processadas pela Apple. Nós nunca vemos seus dados de pagamento.",
     "adsTitle": "Publicidade",

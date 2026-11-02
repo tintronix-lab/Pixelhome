@@ -105,7 +105,7 @@
     "icloudTitle": "iCloudのセーブデータ",
     "icloud": "サインインしているとき、進行状況は、お使いのほかのデバイスにも引き継がれるよう、あなた自身のiCloudのキー値ストレージに保存されます。このストレージは、あなたのApple Accountに属するものです。私たちはこれを読み取ることができません。Appleによるその取り扱いには、<a:apple-privacy>Appleのプライバシーポリシー</a>が適用されます。",
     "gameCenterTitle": "Game Center（任意）",
-    "gameCenter": "Game Centerにサインインすることを選んだ場合、スコアと達成項目は、あなたのGame Centerプロフィールにひもづけて、AppleのGame Centerに送信されます。あなたが求めるまで、ゲームがGame Centerを起動することはありません。",
+    "gameCenter": "Game Centerにサインインすることを選んだ場合、スコアと達成項目は、あなたのGame Centerプロフィールにひもづけて、AppleのGame Centerに送信されます。あなたが求めるまで、ゲームがGame Centerを起動することはありません。 バージョン1.5からは、許可すると、デイリーフローのあとにGame Centerの友達の名前とスコアを表示できます。これらはAppleのGame Centerから届き、あなたの画面に表示されるだけで、ゲームには何も保存されません。",
     "purchasesTitle": "購入",
     "purchases": "アプリ内課金はAppleによって処理されます。私たちがあなたのお支払い情報を目にすることはありません。",
     "adsTitle": "広告",
