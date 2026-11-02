@@ -145,6 +145,144 @@
         "th": "เทศกาลสวนฤดูใบไม้ร่วง: ดาวทุกดวงที่ได้ในสุดสัปดาห์นี้นับเป็นสองเท่าสำหรับเลเวลคนสวน",
         "zh-Hant": "秋日庭院祭：本週末獲得的每顆星星，都會以兩倍計入你的園丁等級。"
       }
+    },
+    {
+      "id": "wreath-week-2026-12",
+      "kind": "decoration",
+      "item": "gift.wreath",
+      "goal": 5,
+      "from": "2026-12-07",
+      "to": "2026-12-13",
+      "title": {
+        "en": "Wreath week",
+        "de": "Kranzwoche",
+        "es": "Semana de coronas",
+        "fr": "Semaine des couronnes",
+        "it": "Settimana delle ghirlande",
+        "ja": "リースウィーク",
+        "ko": "화환 주간",
+        "nl": "Kransweek",
+        "pt-BR": "Semana das Guirlandas",
+        "sv": "Kransveckan",
+        "th": "สัปดาห์พวงมาลัย",
+        "zh-Hant": "花圈週"
+      },
+      "text": {
+        "en": "Winter Garden Festival: clear 5 gardens this week for a Wreath in My Garden.",
+        "de": "Winterliches Gartenfest: Meistere diese Woche 5 Gärten für einen Kranz in Mein Garten.",
+        "es": "Fiesta invernal del jardín: supera 5 jardines esta semana y gana una corona navideña para Mi jardín.",
+        "fr": "Fête des jardins d’hiver : réussis 5 jardins cette semaine pour une couronne dans Mon jardin.",
+        "it": "Festa d’inverno in giardino: completa 5 giardini questa settimana per una ghirlanda nel tuo giardino.",
+        "ja": "冬の庭まつり：今週、庭を5つクリアすると、わたしの庭にリースが届きます。",
+        "ko": "겨울 정원 축제: 이번 주에 정원 5개를 클리어하면 나의 뜰에 화환이 생겨요.",
+        "nl": "Wintertuinfeest: voltooi deze week 5 tuinen voor een krans in Mijn tuin.",
+        "pt-BR": "Festival de Inverno do Jardim: conclua 5 jardins nesta semana e ganhe uma Guirlanda no Meu jardim.",
+        "sv": "Vinterns trädgårdsfest: klara 5 trädgårdar den här veckan för en krans i Min trädgård.",
+        "th": "เทศกาลสวนฤดูหนาว: ผ่านสวน 5 แห่งในสัปดาห์นี้เพื่อรับพวงมาลัยประดับในสวนของฉัน",
+        "zh-Hant": "冬日庭院祭：本週完成 5 座庭院，就能在我的庭院獲得花圈。"
+      }
+    },
+    {
+      "id": "star-weekend-2026-12-18",
+      "kind": "doubleStars",
+      "from": "2026-12-18",
+      "to": "2026-12-20",
+      "title": {
+        "en": "Star weekend",
+        "de": "Sternenwochenende",
+        "es": "Fin de semana de estrellas",
+        "fr": "Week-end des étoiles",
+        "it": "Weekend delle stelle",
+        "ja": "星の週末",
+        "ko": "별 주말",
+        "nl": "Sterrenweekend",
+        "pt-BR": "Fim de semana das estrelas",
+        "sv": "Stjärnhelg",
+        "th": "สุดสัปดาห์ดาว",
+        "zh-Hant": "星星週末"
+      },
+      "text": {
+        "en": "Winter Garden Festival: every star you earn this weekend counts twice for your gardener level.",
+        "de": "Winterliches Gartenfest: Jeder Stern, den du an diesem Wochenende verdienst, zählt doppelt für deine Gärtnerstufe.",
+        "es": "Fiesta invernal del jardín: cada estrella que ganes este fin de semana cuenta el doble para tu nivel de jardinería.",
+        "fr": "Fête des jardins d’hiver : chaque étoile gagnée ce week-end compte double pour ton niveau de jardinage.",
+        "it": "Festa d’inverno in giardino: ogni stella che guadagni questo weekend vale doppio per il tuo livello giardiniere.",
+        "ja": "冬の庭まつり：この週末に集めた星は、ガーデナーレベルに2倍でカウントされます。",
+        "ko": "겨울 정원 축제: 이번 주말에 얻은 별은 정원사 레벨에 두 배로 집계돼요.",
+        "nl": "Wintertuinfeest: elke ster die je dit weekend verdient, telt dubbel voor je tuinierslevel.",
+        "pt-BR": "Festival de Inverno do Jardim: cada estrela que você ganhar neste fim de semana conta em dobro para seu nível de jardineiro.",
+        "sv": "Vinterns trädgårdsfest: varje stjärna du får i helgen räknas dubbelt för din trädgårdsnivå.",
+        "th": "เทศกาลสวนฤดูหนาว: ดาวทุกดวงที่ได้ในสุดสัปดาห์นี้นับเป็นสองเท่าสำหรับเลเวลคนสวน",
+        "zh-Hant": "冬日庭院祭：本週末獲得的每顆星星，都會以兩倍計入你的園丁等級。"
+      }
+    },
+    {
+      "id": "star-weekend-2026-12-25",
+      "kind": "doubleStars",
+      "from": "2026-12-25",
+      "to": "2026-12-27",
+      "title": {
+        "en": "Star weekend",
+        "de": "Sternenwochenende",
+        "es": "Fin de semana de estrellas",
+        "fr": "Week-end des étoiles",
+        "it": "Weekend delle stelle",
+        "ja": "星の週末",
+        "ko": "별 주말",
+        "nl": "Sterrenweekend",
+        "pt-BR": "Fim de semana das estrelas",
+        "sv": "Stjärnhelg",
+        "th": "สุดสัปดาห์ดาว",
+        "zh-Hant": "星星週末"
+      },
+      "text": {
+        "en": "Winter Garden Festival: every star you earn this weekend counts twice for your gardener level.",
+        "de": "Winterliches Gartenfest: Jeder Stern, den du an diesem Wochenende verdienst, zählt doppelt für deine Gärtnerstufe.",
+        "es": "Fiesta invernal del jardín: cada estrella que ganes este fin de semana cuenta el doble para tu nivel de jardinería.",
+        "fr": "Fête des jardins d’hiver : chaque étoile gagnée ce week-end compte double pour ton niveau de jardinage.",
+        "it": "Festa d’inverno in giardino: ogni stella che guadagni questo weekend vale doppio per il tuo livello giardiniere.",
+        "ja": "冬の庭まつり：この週末に集めた星は、ガーデナーレベルに2倍でカウントされます。",
+        "ko": "겨울 정원 축제: 이번 주말에 얻은 별은 정원사 레벨에 두 배로 집계돼요.",
+        "nl": "Wintertuinfeest: elke ster die je dit weekend verdient, telt dubbel voor je tuinierslevel.",
+        "pt-BR": "Festival de Inverno do Jardim: cada estrela que você ganhar neste fim de semana conta em dobro para seu nível de jardineiro.",
+        "sv": "Vinterns trädgårdsfest: varje stjärna du får i helgen räknas dubbelt för din trädgårdsnivå.",
+        "th": "เทศกาลสวนฤดูหนาว: ดาวทุกดวงที่ได้ในสุดสัปดาห์นี้นับเป็นสองเท่าสำหรับเลเวลคนสวน",
+        "zh-Hant": "冬日庭院祭：本週末獲得的每顆星星，都會以兩倍計入你的園丁等級。"
+      }
+    },
+    {
+      "id": "star-weekend-2027-01-01",
+      "kind": "doubleStars",
+      "from": "2027-01-01",
+      "to": "2027-01-03",
+      "title": {
+        "en": "Star weekend",
+        "de": "Sternenwochenende",
+        "es": "Fin de semana de estrellas",
+        "fr": "Week-end des étoiles",
+        "it": "Weekend delle stelle",
+        "ja": "星の週末",
+        "ko": "별 주말",
+        "nl": "Sterrenweekend",
+        "pt-BR": "Fim de semana das estrelas",
+        "sv": "Stjärnhelg",
+        "th": "สุดสัปดาห์ดาว",
+        "zh-Hant": "星星週末"
+      },
+      "text": {
+        "en": "Winter Garden Festival: every star you earn this weekend counts twice for your gardener level.",
+        "de": "Winterliches Gartenfest: Jeder Stern, den du an diesem Wochenende verdienst, zählt doppelt für deine Gärtnerstufe.",
+        "es": "Fiesta invernal del jardín: cada estrella que ganes este fin de semana cuenta el doble para tu nivel de jardinería.",
+        "fr": "Fête des jardins d’hiver : chaque étoile gagnée ce week-end compte double pour ton niveau de jardinage.",
+        "it": "Festa d’inverno in giardino: ogni stella che guadagni questo weekend vale doppio per il tuo livello giardiniere.",
+        "ja": "冬の庭まつり：この週末に集めた星は、ガーデナーレベルに2倍でカウントされます。",
+        "ko": "겨울 정원 축제: 이번 주말에 얻은 별은 정원사 레벨에 두 배로 집계돼요.",
+        "nl": "Wintertuinfeest: elke ster die je dit weekend verdient, telt dubbel voor je tuinierslevel.",
+        "pt-BR": "Festival de Inverno do Jardim: cada estrela que você ganhar neste fim de semana conta em dobro para seu nível de jardineiro.",
+        "sv": "Vinterns trädgårdsfest: varje stjärna du får i helgen räknas dubbelt för din trädgårdsnivå.",
+        "th": "เทศกาลสวนฤดูหนาว: ดาวทุกดวงที่ได้ในสุดสัปดาห์นี้นับเป็นสองเท่าสำหรับเลเวลคนสวน",
+        "zh-Hant": "冬日庭院祭：本週末獲得的每顆星星，都會以兩倍計入你的園丁等級。"
+      }
     }
   ]
 }
